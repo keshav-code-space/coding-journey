@@ -63,6 +63,15 @@ Each solution includes:
 
 I regularly update this repository as I solve new problems and learn new concepts.
 
+- [x] Python Fundamentals
+- [x] Recursion
+- [ ] Linked Lists
+- [ ] Stacks
+- [ ] Queues
+- [ ] Trees
+- [ ] Graphs
+- [ ] Dynamic Programming
+
 Current Focus:
 - Data Structures
 - Algorithm Optimization
