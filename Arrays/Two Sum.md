@@ -7,7 +7,7 @@ https://leetcode.com/problems/two-sum/
 One brute force approach is to consider every pair of elements and check if their sum equals the target. This can be done using nested loops, where the outer loop iterates from the first element to the second-to-last element, and the inner loop iterates from the next element to the last element.
 
 ## Approach-2
-A more efficient approach is to use a hash table (unordered_map in C++). We can iterate through the array once, and for each element, check if the target minus the current element exists in the hash table. 
+A more efficient approach is to use a hash table. We can iterate through the array once, and for each element, check if the target minus the current element exists in the hash table. 
 
 ## Solution-1
 ```python
