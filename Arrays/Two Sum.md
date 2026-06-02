@@ -34,12 +34,12 @@ class Solution:
 ```
 
 ## Complexity
-#### Approach-1
+### Approach-1
 
 TIME : O(n^2)\
 SPACE : O(1)
 
-#### Approach-2
+### Approach-2
 
 TIME : O(n)\
 SPACE : O(1)
