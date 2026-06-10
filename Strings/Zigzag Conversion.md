@@ -21,3 +21,5 @@ Given a string `s` and an integer `numRows`, return the zigzag conversion.
 **LeetCode Link:** https://leetcode.com/problems/zigzag-conversion/
 
 ---
+this is for my self to complete it later .
+note : to complete this i have to do first col from row 1 to end then in the reverse order for every row add element and move the col
