@@ -53,5 +53,70 @@ class Solution:
 
         return ans
 ```
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(4^n / √n)
+```
+
+The number of valid combinations is the nth Catalan Number.
+
+Approximation:
+
+```text
+Catalan(n) ≈ 4^n / (n^(3/2))
+```
+
+So the overall complexity is:
+
+```text
+O(4^n / √n)
+```
+
+---
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+Recursive call stack depth.
+
+(Not counting the output list.)
+
+---
+
+## Example 1
+
+### Input
+
+```text
+n = 3
+```
+
+### Output
+
+```text
+[
+ "((()))",
+ "(()())",
+ "(())()",
+ "()(())",
+ "()()()"
+]
+```
+
+---
+
+## Concepts Used
+
+- Recursion
+- Backtracking
+- Decision Tree
+- String Construction
+- Catalan Numbers
 
 ---
