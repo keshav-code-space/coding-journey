@@ -23,6 +23,41 @@ This provides an optimal solution with **O(n)** time complexity and **O(1)** ext
 
 ---
 
+## Solution (Python)
 
+```python
+class Solution:
+    def missingNumber(self, nums):
+        n = len(nums)
+        expected_sum = n * (n + 1) // 2
+        actual_sum = sum(nums)
+
+        return expected_sum - actual_sum
+```
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+- O(n)
+
+We traverse the array once to calculate its sum.
+
+### Space Complexity
+
+- O(1)
+
+Only a few extra variables are used.
+
+---
+
+## Concepts Used
+
+- Array
+- Mathematics
+- Summation Formula
+- Prefix Sum Concept
 
 ---
