@@ -31,3 +31,105 @@ At each step:
 This gives an efficient solution with constant extra space.
 
 ---
+
+
+## Solution (Python)
+
+```python
+class Solution:
+    def tribonacci(self, n):
+        if n == 0:
+            return 0
+        if n <= 2:
+            return 1
+
+        a, b, c = 0, 1, 1
+
+        for _ in range(3, n + 1):
+            a, b, c = b, c, a + b + c
+
+        return c
+```
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+- O(n)
+
+We iterate from 3 to n once.
+
+### Space Complexity
+
+- O(1)
+
+Only three variables are maintained regardless of input size.
+
+---
+
+## Example Walkthrough
+
+### Example 1
+
+```text
+Input: n = 4
+```
+
+Initial values:
+
+```text
+T0 = 0
+T1 = 1
+T2 = 1
+```
+
+Calculate:
+
+```text
+T3 = T2 + T1 + T0
+   = 1 + 1 + 0
+   = 2
+
+T4 = T3 + T2 + T1
+   = 2 + 1 + 1
+   = 4
+```
+
+Output:
+
+```text
+4
+```
+
+---
+
+### Example 2
+
+```text
+Input: n = 5
+```
+
+Sequence:
+
+```text
+0, 1, 1, 2, 4, 7
+```
+
+Output:
+
+```text
+7
+```
+
+---
+
+## Concepts Used
+
+- Dynamic Programming
+- Iteration
+- Recurrence Relations
+- Space Optimization
+
+---
