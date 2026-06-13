@@ -25,3 +25,88 @@ Steps:
 This approach handles deletions at the beginning, middle, and end uniformly.
 
 ---
+
+## Solution (Python)
+
+```python
+class Solution:
+    def removeElements(self, head, val):
+
+        dummy = ListNode(0)
+        dummy.next = head
+
+        curr = dummy
+
+        while curr.next:
+
+            if curr.next.val == val:
+                curr.next = curr.next.next
+            else:
+                curr = curr.next
+
+        return dummy.next
+```
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+- O(n)
+
+Each node is visited at most once.
+
+### Space Complexity
+
+- O(1)
+
+Only a few extra pointers are used.
+
+---
+
+## Example Walkthrough
+
+### Example 1
+
+```text
+Input:
+head = [1,2,6,3,4,5,6]
+val = 6
+```
+
+Initial List:
+
+```text
+1 → 2 → 6 → 3 → 4 → 5 → 6
+```
+
+Remove first occurrence of 6:
+
+```text
+1 → 2 → 3 → 4 → 5 → 6
+```
+
+Remove second occurrence of 6:
+
+```text
+1 → 2 → 3 → 4 → 5
+```
+
+Output:
+
+```text
+[1,2,3,4,5]
+```
+
+---
+
+## Concepts Used
+
+- Linked List
+- Dummy Node
+- Pointer Manipulation
+- Traversal
+- Node Deletion
+
+---
