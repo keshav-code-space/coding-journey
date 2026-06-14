@@ -58,8 +58,13 @@
         temp = self.head
 
         for i in range(index-1):
-              if temp is None:
-                    return
-              temp = temp.next
-        
+            if temp is None:
+                return
+            temp = temp.next
+
+        if temp is None:
+            return
+
+        newnode.next = temp.next
+        temp.next = newnode
         
