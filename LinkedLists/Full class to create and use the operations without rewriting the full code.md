@@ -126,4 +126,29 @@
             
       return count
 
+    # reverse linked list
+
+    def reverse(self):
+        nxt = None
+        prev = None
+        curr = self.head
+        
+        while curr is not None:
+            nxt == curr.next
+            curr.next = prev
+            prev = curr
+            curr = nxt
+        return prev
+    
+    # middle of linked list
+    
+    def middle(self):
+        slow = fast = self.head
+        
+        while fast != None and fast.next != None:
+            slow = slow.next
+            fast = fast.next.next
+            
+        return slow.data if slow else None
+
     
