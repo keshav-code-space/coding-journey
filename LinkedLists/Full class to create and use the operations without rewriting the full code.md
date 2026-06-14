@@ -87,3 +87,23 @@
         while temp.next.next:
             temp = temp.next
         temp.next = None
+
+    #delete by value
+
+    def delete_value(self, val):
+        if self.head is None:
+            return
+        if self.head.data == val:
+            self.head = self.head.next
+            return 
+    
+        temp = self.head
+        while temp.next is not None and temp.next.data != val:      
+            temp = temp.next
+        
+        if temp.next:
+            temp.next = temp.next.next
+    
+    # search element 
+
+    
