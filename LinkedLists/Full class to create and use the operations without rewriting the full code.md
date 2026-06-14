@@ -67,4 +67,23 @@
 
         newnode.next = temp.next
         temp.next = newnode
+    
+    # delete from beginning.
+    
+    def delete_begin(self):
+        if self.head:
+            self.head = self.head.next
+            
+    # delete from end.
+    
+    def delete_end(self):
+        if self.head is None:
+            return 
+        if self.head.next is None:
+            self.head = None 
+            return
         
+        temp = self.head
+        while temp.next.next:
+            temp = temp.next
+        temp.next = None
