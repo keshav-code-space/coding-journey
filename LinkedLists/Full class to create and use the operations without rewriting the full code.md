@@ -105,5 +105,25 @@
             temp.next = temp.next.next
     
     # search element 
+    
+    def serch(self, val):
+      temp =self.head
+      postion = 0
+      while temp is not None:
+          if temp.data == val:
+              return postion
+          temp = temp.next
+          postion += 1
+  
+    # length of linked list
+    
+    def length(self):
+        temp = self.head
+        count = 0
+        while temp:
+            count +=1 
+            temp = temp.next
+            
+      return count
 
     
