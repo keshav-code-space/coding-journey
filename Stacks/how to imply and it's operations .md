@@ -99,3 +99,33 @@ class Stack:
 
 ---
 
+# Operations on Stack
+
+## 1. Push
+
+Adds an element to the top of the stack.
+
+```python
+stack.push(10)
+stack.push(20)
+stack.push(30)
+```
+
+Result:
+
+```text
+Top
+ ↓
+30
+20
+10
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
