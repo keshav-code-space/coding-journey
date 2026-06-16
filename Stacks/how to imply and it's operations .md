@@ -182,3 +182,25 @@ O(1)
 
 ---
 
+## 4. isEmpty
+
+Checks whether the stack is empty.
+
+```python
+stack.isEmpty()
+```
+
+Output:
+
+```text
+False
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
