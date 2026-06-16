@@ -226,3 +226,23 @@ O(1)
 
 ---
 
+## 6. Print Stack
+
+```python
+stack.printStack()
+```
+
+Output:
+
+```text
+[10, 20]
+```
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+---
+
