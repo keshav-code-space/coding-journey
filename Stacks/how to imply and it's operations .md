@@ -129,3 +129,33 @@ O(1)
 
 ---
 
+## 2. Pop
+
+Removes and returns the top element.
+
+```python
+stack.pop()
+```
+
+Output:
+
+```text
+30
+```
+
+Stack:
+
+```text
+Top
+ ↓
+20
+10
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
