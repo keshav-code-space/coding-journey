@@ -69,3 +69,33 @@ C → B → A
 # Stack Implementation Using Class
 
 ```python
+class Stack:
+    def __init__(self):
+        self.stack = []
+
+    def push(self, value):
+        self.stack.append(value)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        else:
+            raise IndexError("pop from empty stack")
+
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        return None
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+    def size(self):
+        return  len(self.stack)
+
+    def print_stack(self):
+        print(self.stack)
+```
+
+---
+
