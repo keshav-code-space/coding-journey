@@ -159,3 +159,26 @@ O(1)
 ```
 
 ---
+
+## 3. Peek / Top
+
+Returns the top element without removing it.
+
+```python
+stack.peek()
+```
+
+Output:
+
+```text
+20
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
