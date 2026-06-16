@@ -246,3 +246,43 @@ O(n)
 
 ---
 
+# Complete Example
+
+```python
+stack = Stack()
+
+stack.push(10)
+stack.push(20)
+stack.push(30)
+
+stack.printStack()
+
+print("Top:", stack.peek())
+
+print("Removed:", stack.pop())
+
+stack.printStack()
+
+print("Size:", stack.size())
+
+print("Empty:", stack.isEmpty())
+```
+
+Output:
+
+```text
+[10, 20, 30]
+
+Top: 30
+
+Removed: 30
+
+[10, 20]
+
+Size: 2
+
+Empty: False
+```
+
+---
+
