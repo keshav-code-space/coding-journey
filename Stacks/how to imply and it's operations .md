@@ -204,3 +204,25 @@ O(1)
 
 ---
 
+## 5. Size
+
+Returns the number of elements.
+
+```python
+stack.size()
+```
+
+Output:
+
+```text
+2
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
