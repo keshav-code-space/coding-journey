@@ -286,3 +286,30 @@ Empty: False
 
 ---
 
+# Complexity Summary
+
+| Operation | Time Complexity |
+|------------|----------------|
+| Push | O(1) |
+| Pop | O(1) |
+| Peek | O(1) |
+| isEmpty | O(1) |
+| Size | O(1) |
+| Print | O(n) |
+
+---
+
+# Concepts Used
+
+- Stack
+- LIFO (Last In First Out)
+- Arrays / Lists
+- Class Design
+- Data Structure Operations
+
+---
+
+# Note:
+
+- As we know for any class we try to make it in least time complexity but for the stack the operation must be in O(1) time complexity except the print function it is not nesseary to make one since it is just print function and it has O(n) time complexity.
+- It is just a thought of mine it might help and all set.
