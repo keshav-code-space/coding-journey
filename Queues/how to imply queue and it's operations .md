@@ -62,3 +62,23 @@ Job 1 → Job 2 → Job 3
 ```
 
 ---
+
+# Queue Implementation Using Class
+
+```python
+class Queue:
+
+    def __init__(self):
+        self.items = []
+
+    def enqueue(self, data):
+        self.items.append(data)
+
+    def dequeue(self):
+
+        if self.isEmpty():
+            return "Queue Underflow"
+
+        return self.items.pop(0)
+
+
