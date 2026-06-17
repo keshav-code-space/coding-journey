@@ -159,9 +159,76 @@ Front     Rear
 ### Time Complexity
 
 ```text
-O(n)
+O(1)
 ```
 
 Because elements shift left after `pop(0)`.
+
+---
+
+
+## 3. Front
+
+Returns the first element without removing it.
+
+```python
+queue.front()
+```
+
+Output:
+
+```text
+20
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
+## 4. Rear
+
+Returns the last element.
+
+```python
+queue.rear()
+```
+
+Output:
+
+```text
+30
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
+## 5. isEmpty
+
+Checks whether the queue is empty.
+
+```python
+queue.isEmpty()
+```
+
+Output:
+
+```text
+False
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
 
 ---
