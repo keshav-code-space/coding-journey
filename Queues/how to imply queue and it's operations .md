@@ -159,7 +159,7 @@ Front     Rear
 ### Time Complexity
 
 ```text
-O(1)
+O(n)
 ```
 
 Because elements shift left after `pop(0)`.
