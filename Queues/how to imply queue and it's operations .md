@@ -106,4 +106,62 @@ class Queue:
 
 ---
 
+# Operations on Queue
 
+## 1. Enqueue
+
+Adds an element at the rear of the queue.
+
+```python
+queue.enqueue(10)
+queue.enqueue(20)
+queue.enqueue(30)
+```
+
+Result:
+
+```text
+Front          Rear
+ ↓               ↓
+10 → 20 → 30
+```
+
+### Time Complexity
+
+```text
+O(1)
+```
+
+---
+
+## 2. Dequeue
+
+Removes and returns the front element.
+
+```python
+queue.dequeue()
+```
+
+Output:
+
+```text
+10
+```
+
+Queue:
+
+```text
+Front     Rear
+ ↓          ↓
+20 → 30
+```
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+Because elements shift left after `pop(0)`.
+
+---
