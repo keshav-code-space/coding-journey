@@ -80,5 +80,30 @@ class Queue:
             return "Queue Underflow"
 
         return self.items.pop(0)
+    def front(self):
+
+        if self.isEmpty():
+            return None
+
+        return self.items[0]
+
+    def rear(self):
+
+        if self.isEmpty():
+            return None
+
+        return self.items[-1]
+
+    def isEmpty(self):
+        return len(self.items) == 0
+
+    def size(self):
+        return len(self.items)
+
+    def printQueue(self):
+        print(self.items)
+```
+
+---
 
 
