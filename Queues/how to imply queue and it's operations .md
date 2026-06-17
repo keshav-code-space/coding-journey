@@ -28,3 +28,37 @@ Front               Rear
 ```
 
 ---
+
+## Real-Life Examples
+
+### Ticket Counter
+
+```text
+Person A arrives
+Person B arrives
+Person C arrives
+```
+
+Service Order:
+
+```text
+A → B → C
+```
+
+---
+
+### Printer Queue
+
+```text
+Print Job 1
+Print Job 2
+Print Job 3
+```
+
+Printing Order:
+
+```text
+Job 1 → Job 2 → Job 3
+```
+
+---
