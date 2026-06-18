@@ -2,6 +2,8 @@
 
 ## Problem
 
+use basice of linklist.
+
 **LeetCode Link:** https://leetcode.com/problems/delete-node-in-a-linked-list/
 
 ---
