@@ -2,6 +2,8 @@
 
 ## Problem
 
+simple use of inbuilt function.
+
 **LeetCode Link:** https://leetcode.com/problems/sqrtx/
 
 ---
