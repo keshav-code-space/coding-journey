@@ -2,7 +2,11 @@
 
 ## Problem
 
-simple use of inbuilt function.
+simple use of inbuilt function but try to do it using not the inbuilt function 🙂.
+
+Given a non-negative integer `x`, return the square root of `x` rounded down to the nearest integer.
+
+You must not use any built-in exponent function or operator.
 
 **LeetCode Link:** https://leetcode.com/problems/sqrtx/
 
