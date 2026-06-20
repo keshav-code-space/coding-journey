@@ -4,6 +4,13 @@
 
 tricky one this time.
 
+You are given an `m x n` integer matrix with the following properties:
+
+1. Each row is sorted in non-decreasing order.
+2. The first integer of each row is greater than the last integer of the previous row.
+
+Given an integer `target`, return `true` if `target` is in the matrix, or `false` otherwise.
+
 **LeetCode Link:** https://leetcode.com/problems/search-a-2d-matrix/
 
 ---
