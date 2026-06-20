@@ -4,6 +4,17 @@
 
 use basice of linklist.
 
+There is a singly-linked list `head` and you are given the node to be deleted `node`.
+
+You are **not given access to the head of the list**. Instead, you are given direct access to the node that should be deleted.
+
+Delete the given node. Note that by deleting the node, we do not mean removing it from memory. We mean:
+
+- The value of the given node should not exist in the linked list.
+- The number of nodes in the linked list should decrease by one.
+- All values before the given node should remain in the same order.
+- All values after the given node should remain in the same order.
+
 **LeetCode Link:** https://leetcode.com/problems/delete-node-in-a-linked-list/
 
 ---
