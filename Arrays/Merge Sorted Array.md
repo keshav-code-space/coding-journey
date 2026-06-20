@@ -2,7 +2,17 @@
 
 ## Problem
 
-question explaination later
+You are given two integer arrays:
+
+- `nums1` of length `m + n`
+- `nums2` of length `n`
+
+where:
+
+- The first `m` elements of `nums1` are sorted.
+- `nums2` contains `n` sorted elements.
+
+Merge `nums2` into `nums1` as one sorted array.
 
 **LeetCode Link:** https://leetcode.com/problems/merge-sorted-array/
 
