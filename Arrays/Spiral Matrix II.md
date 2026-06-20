@@ -2,6 +2,10 @@
 
 ## Problem
 
+Similar to the 74 problem in the leetCode.
+
+Given a positive integer `n`, generate an `n x n` matrix filled with elements from `1` to `n²` in spiral order.
+
 **LeetCode Link:** https://leetcode.com/problems/spiral-matrix-ii/
 
 ---
