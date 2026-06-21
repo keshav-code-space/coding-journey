@@ -2,6 +2,12 @@
 
 ## Problem
 
+Given a circular integer array `nums` (the next element of the last element is the first element of the array), return the next greater number for every element.
+
+The next greater number of a number `x` is the first greater number traversing in its order in the array, which means you could search circularly to find its next greater number.
+
+If it doesn't exist, return `-1`.
+
 **LeetCode Link:** https://leetcode.com/problems/next-greater-element-ii/
 
 ---
