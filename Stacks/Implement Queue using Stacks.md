@@ -2,6 +2,17 @@
 
 ## Problem
 
+Implement a First-In-First-Out (FIFO) queue using only two stacks.
+
+Implement the following operations:
+
+```python
+push(x)
+pop()
+peek()
+empty()
+```
+
 **LeetCode Link:** https://leetcode.com/problems/implement-queue-using-stacks/
 
 ---
