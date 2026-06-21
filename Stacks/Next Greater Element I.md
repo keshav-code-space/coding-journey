@@ -2,6 +2,17 @@
 
 ## Problem
 
+The next greater element of an element `x` in an array is the first greater element that appears to its right.
+
+Given two arrays:
+
+- `nums1` (subset of `nums2`)
+- `nums2`
+
+For each element in `nums1`, find its next greater element in `nums2`.
+
+If it does not exist, return `-1`.
+
 **LeetCode Link:** https://leetcode.com/problems/next-greater-element-i/
 
 
