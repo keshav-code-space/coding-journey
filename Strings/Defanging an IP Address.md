@@ -2,6 +2,10 @@
 
 ## Problem
 
+Given a valid IPv4 address `address`, return a defanged version of that IP address.
+
+A defanged IP address replaces every period `.` with `"[.]"`.
+
 **LeetCode Link:** https://leetcode.com/problems/defanging-an-ip-address/
 
 ---
