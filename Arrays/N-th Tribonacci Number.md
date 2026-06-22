@@ -2,6 +2,24 @@
 
 ## Problem
 
+The Tribonacci sequence Tn is defined as follows:
+
+T0 = 0
+T1 = 1
+T2 = 1
+
+and for:
+
+n >= 0
+
+the next number is the sum of the previous three numbers:
+
+T(n+3) = T(n) + T(n+1) + T(n+2)
+
+Given an integer n, return the value of:
+
+Tn
+
 **LeetCode Link:** https://leetcode.com/problems/n-th-tribonacci-number/
 
 ---
