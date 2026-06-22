@@ -2,6 +2,16 @@
 
 ## Problem
 
+Suppose an array of length `n` sorted in ascending order is rotated between `1` and `n` times.
+
+Find the minimum element.
+
+You must write an algorithm that runs in:
+
+```text
+O(log n)
+```
+
 **LeetCode Link:** https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
 ---
