@@ -2,6 +2,30 @@
 
 ## Problem
 
+There is an integer array nums sorted in ascending order (with distinct values).
+
+Before being passed to your function, the array is possibly rotated at an unknown pivot index.
+
+For example:
+
+[0,1,2,4,5,6,7]
+
+might become:
+
+[4,5,6,7,0,1,2]
+
+Given the array nums after the possible rotation and an integer target, return the index of target if it exists in the array.
+
+Otherwise, return:
+
+-1
+
+You must write an algorithm with:
+
+O(log n)
+
+runtime complexity.
+
 **LeetCode Link:** https://leetcode.com/problems/search-in-rotated-sorted-array/
 
 ---
