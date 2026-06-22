@@ -2,6 +2,15 @@
 
 ## Problem
 
+Given a string `s`, reverse only all the vowels in the string and return it.
+
+The vowels are:
+
+```text
+a, e, i, o, u
+A, E, I, O, U
+```
+
 **LeetCode Link:** https://leetcode.com/problems/reverse-vowels-of-a-string/
 
 ---
