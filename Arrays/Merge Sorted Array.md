@@ -20,7 +20,7 @@ Merge `nums2` into `nums1` as one sorted array.
 
 ## Approach: Three Pointers (Optimal)
 
-### Key Idea
+### Key Idea -
 
 Instead of shifting elements in `nums1`, start filling from the end.
 
