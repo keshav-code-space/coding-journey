@@ -46,3 +46,28 @@ O(n)
 Recursion stack.
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+s = "hello"
+```
+
+### Output
+
+```text
+"olleh"
+```
+
+---
+
+## Concepts Used
+
+- Two Pointers
+- String Manipulation
+- Recursion
+- Swapping
+
+---
