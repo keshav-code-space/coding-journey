@@ -85,3 +85,10 @@ n = 5
 ```
 
 ---
+
+## Concepts Used
+
+- Recursion
+- Iteration
+- Mathematics
+- Multiplication Pattern
