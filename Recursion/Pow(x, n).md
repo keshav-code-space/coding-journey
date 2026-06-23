@@ -2,6 +2,12 @@
 
 ## Problem
 
+Implement `pow(x, n)`, which calculates `x` raised to the power `n`.
+
+```text
+pow(x, n) = xⁿ
+```
+
 **LeetCode Link:** https://leetcode.com/problems/powx-n/
 
 ---
