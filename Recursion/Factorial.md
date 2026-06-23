@@ -60,3 +60,28 @@ One recursive call for each number.
 ```text
 O(n)
 ```
+
+---
+
+## Example 1
+
+### Input
+
+```text
+n = 5
+```
+
+### Output
+
+```text
+120
+```
+
+### Explanation
+
+```text
+5! = 5 × 4 × 3 × 2 × 1
+   = 120
+```
+
+---
