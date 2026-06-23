@@ -2,6 +2,21 @@
 
 ## Problem
 
+The Fibonacci numbers are defined as:
+
+```text
+F(0) = 0
+F(1) = 1
+```
+
+For `n > 1`:
+
+```text
+F(n) = F(n-1) + F(n-2)
+```
+
+Given `n`, return `F(n)`.
+
 **LeetCode Link:** https://leetcode.com/problems/fibonacci-number/
 
 ---
