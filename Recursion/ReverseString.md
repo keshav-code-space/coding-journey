@@ -71,3 +71,7 @@ s = "hello"
 - Swapping
 
 ---
+
+# Note 
+- This is not the best of our intrest to solve it recursively , since it's time complexcity is O(n^2).
+- For this question we can use either two pointer or use the string slicing.
