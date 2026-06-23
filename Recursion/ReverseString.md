@@ -27,3 +27,22 @@ def reverseString(s):
 
 ---
 
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n²)
+```
+
+String concatenation creates new strings repeatedly.
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+Recursion stack.
+
+---
