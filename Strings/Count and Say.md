@@ -43,3 +43,64 @@ to the new string.
 Repeat until reaching the nth term.
 
 ---
+
+## Solution
+
+```python
+class Solution:
+    def countAndSay(self, n):
+
+        result = "1"
+
+        for _ in range(n - 1):
+
+            current = ""
+            count = 1
+
+            for i in range(1, len(result)):
+
+                if result[i] == result[i - 1]:
+                    count += 1
+
+                else:
+                    current += str(count)
+                    current += result[i - 1]
+                    count = 1
+
+            current += str(count)
+            current += result[-1]
+
+            result = current
+
+        return result
+```
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(m)
+```
+
+Where:
+
+```text
+m = length of the generated nth string
+```
+
+Each character is processed once per generation.
+
+---
+
+### Space Complexity
+
+```text
+O(m)
+```
+
+For storing the generated string.
+
+---
