@@ -105,7 +105,7 @@ For storing the generated string.
 
 ---
 
-## Example 2
+## Example 1
 
 ### Input
 
