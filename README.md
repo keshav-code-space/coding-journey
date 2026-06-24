@@ -65,8 +65,8 @@ I regularly update this repository as I solve new problems and learn new concept
 
 - [x] Python Fundamentals
 - [x] Recursion
-- [ ] Linked Lists
-- [ ] Stacks
+- [x] Linked Lists
+- [x] Stacks
 - [ ] Queues
 - [ ] Trees
 - [ ] Graphs
