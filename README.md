@@ -64,6 +64,8 @@ Each solution includes:
 I regularly update this repository as I solve new problems and learn new concepts.
 
 - [x] Python Fundamentals
+- [x] Array
+- [x] String
 - [x] Recursion
 - [x] Linked Lists
 - [x] Stacks
