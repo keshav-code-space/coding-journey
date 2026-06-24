@@ -128,3 +128,11 @@ n = 4
 ```
 
 ---
+
+## Concepts Used
+
+- String Manipulation
+- Simulation
+- Recursion
+- Consecutive Character Counting
+
