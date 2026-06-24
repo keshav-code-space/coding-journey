@@ -91,3 +91,27 @@ O(m + n)
 Generated string + recursion stack.
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+n = 4
+```
+
+### Output
+
+```text
+"1211"
+```
+
+### Explanation
+
+```text
+1      -> one 1      -> 11
+11     -> two 1s     -> 21
+21     -> one 2 one 1 -> 1211
+```
+
+---
