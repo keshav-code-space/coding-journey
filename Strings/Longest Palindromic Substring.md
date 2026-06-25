@@ -2,6 +2,10 @@
 
 ## Problem
 
+Given a string `s`, return the longest palindromic substring in `s`.
+
+A palindrome reads the same forward and backward.
+
 **LeetCode Link:** https://leetcode.com/problems/longest-palindromic-substring/
 
 ---
