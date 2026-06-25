@@ -2,6 +2,13 @@
 
 ## Problem
 
+The value of a string is defined as:
+
+- If the string contains only digits, its value is its integer value.
+- Otherwise, its value is its length.
+
+Return the maximum value among all strings in the array.
+
 **LeetCode Link:** https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/
 
 ---
