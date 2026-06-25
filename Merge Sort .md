@@ -270,3 +270,41 @@ O(n)
 Extra arrays are used during merging.
 
 ---
+
+# Advantages
+
+```text
+Stable Sort
+
+Guaranteed O(n log n)
+
+Good for Large Datasets
+
+Excellent for Linked Lists
+```
+
+---
+
+# Disadvantages
+
+```text
+Uses Extra Space
+
+Not In-place
+```
+
+---
+
+# Concepts Used
+
+- Divide and Conquer
+- Recursion
+- Arrays
+- Sorting
+- Two Pointers
+- Merging Sorted Arrays
+
+---
+
+concept aside the best implementation is to do the question so there is another file in this folder.
+leetCode question 912 do using the mergesort let's go and complete it 🚙.
