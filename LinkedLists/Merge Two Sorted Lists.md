@@ -8,6 +8,15 @@ Merge the two lists into one sorted linked list by splicing together the nodes o
 
 Return the head of the merged linked list.
 
+## Constraints
+
+```text
+The number of nodes in both lists is in the range [0, 50].
+
+-100 <= Node.val <= 100
+
+Both lists are sorted in non-decreasing order.
+```
 
 **LeetCode Link:** https://leetcode.com/problems/merge-two-sorted-lists/
 
