@@ -2,6 +2,28 @@
 
 ## Problem
 
+Given the heads of two singly linked lists `headA` and `headB`, return the node at which the two linked lists intersect.
+
+If the two linked lists have no intersection, return:
+
+```text
+None
+```
+
+The linked lists retain their original structure after the function returns.
+
+> **Note:** Two linked lists intersect if they share the same node by **reference**, not just by value.
+
+You must solve the problem using:
+
+- **O(m + n)** time complexity
+- **O(1)** extra space
+
+where:
+
+- `m` = length of List A
+- `n` = length of List B
+
 **LeetCode Link:** https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 ---
