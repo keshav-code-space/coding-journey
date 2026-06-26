@@ -1,4 +1,4 @@
-# LeetCode 912. Sort an Array
+# 912. Sort an Array
 
 ## Problem Statement
 
@@ -59,3 +59,21 @@ class Solution:
 ```
 
 ---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n log n)
+```
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+---
+
+
