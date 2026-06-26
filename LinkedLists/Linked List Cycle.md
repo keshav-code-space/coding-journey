@@ -2,6 +2,17 @@
 
 ## Problem
 
+Given the head of a linked list, determine if the linked list has a cycle.
+
+A cycle exists if some node can be reached again by continuously following the `next` pointer.
+
+Return:
+
+```text
+True  -> Cycle exists
+False -> No cycle
+```
+
 **LeetCode Link:** https://leetcode.com/problems/linked-list-cycle/
 
 ---
