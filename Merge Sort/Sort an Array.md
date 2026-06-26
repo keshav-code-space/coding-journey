@@ -74,6 +74,18 @@ O(n log n)
 O(n)
 ```
 
+## Example 1
+
+### Input
+
+```text
+nums = [5,2,3,1]
+```
+
+### Output
+
+```text
+[1,2,3,5]
+```
+
 ---
-
-
