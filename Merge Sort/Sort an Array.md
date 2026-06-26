@@ -89,3 +89,6 @@ nums = [5,2,3,1]
 ```
 
 ---
+
+## Concept
+ - Merge Sort
