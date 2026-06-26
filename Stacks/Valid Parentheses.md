@@ -2,6 +2,20 @@
 
 ## Problem
 
+Given a string `s` containing only:
+
+```text
+'(' , ')' , '{' , '}' , '[' , ']'
+```
+
+Determine if the input string is valid.
+
+A string is valid if:
+
+1. Open brackets are closed by the same type of brackets.
+2. Open brackets are closed in the correct order.
+3. Every closing bracket has a corresponding opening bracket.
+
 **LeetCode Link:** https://leetcode.com/problems/valid-parentheses/
 
 
