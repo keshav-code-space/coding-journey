@@ -21,3 +21,26 @@ You must solve this problem without using the library's sort function.
 **LeetCode Link:** https://leetcode.com/problems/sort-colors/
 
 ---
+
+## Approach: Dutch National Flag Algorithm
+
+Use three pointers:
+
+```text
+low
+mid
+high
+```
+
+Maintain:
+
+```text
+[0 ... low-1]     -> 0s
+[low ... mid-1]   -> 1s
+[mid ... high]    -> Unknown
+[high+1 ... end]  -> 2s
+```
+
+Process the array until `mid > high`.
+
+---
