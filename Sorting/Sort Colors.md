@@ -72,4 +72,24 @@ class Solution:
 
 ---
 
-continue later the complexity and example.
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+Each element is processed at most once.
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+Sorting is done in-place.
+
+---
+
+continue later with the example.
