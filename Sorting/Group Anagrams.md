@@ -90,3 +90,11 @@ strs = ["eat","tea","tan","ate","nat","bat"]
 ```
 
 ---
+
+## Concepts Used
+
+- Hash Map
+- Strings
+- Sorting
+- Grouping
+
