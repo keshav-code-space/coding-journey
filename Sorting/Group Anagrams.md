@@ -50,3 +50,23 @@ class Solution:
 
 ---
 
+## Complexity Analysis
+
+### Time Complexity
+
+- O(n × k log k)
+
+Where:
+
+- n = number of strings
+- k = maximum length of a string
+
+Sorting each string takes O(k log k).
+
+### Space Complexity
+
+- O(n × k)
+
+For storing the grouped anagrams.
+
+---
