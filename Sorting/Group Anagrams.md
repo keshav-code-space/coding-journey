@@ -70,3 +70,23 @@ Sorting each string takes O(k log k).
 For storing the grouped anagrams.
 
 ---
+
+## Example
+
+### Input
+
+```text
+strs = ["eat","tea","tan","ate","nat","bat"]
+```
+
+### Output
+
+```text
+[
+    ["eat","tea","ate"],
+    ["tan","nat"],
+    ["bat"]
+]
+```
+
+---
