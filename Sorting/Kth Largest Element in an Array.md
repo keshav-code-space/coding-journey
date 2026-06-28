@@ -122,3 +122,11 @@ O(k)
 The heap stores at most `k` elements.
 
 ---
+
+# Concepts Used
+
+- Sorting
+- Heap (Priority Queue)
+- Quick Select
+- Divide and Conquer
+- Partitioning
