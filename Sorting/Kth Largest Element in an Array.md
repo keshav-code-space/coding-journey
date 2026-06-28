@@ -92,3 +92,33 @@ class Solution:
 ```
 
 ---
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n log k)
+```
+
+Each insertion/removal takes:
+
+```text
+O(log k)
+```
+
+Performed for all `n` elements.
+
+---
+
+### Space Complexity
+
+```text
+O(k)
+```
+
+The heap stores at most `k` elements.
+
+---
