@@ -70,3 +70,25 @@ A **Min Heap** of size `k` keeps track of the `k` largest elements seen so far.
 The smallest element in the heap will always be the kth largest.
 
 ---
+
+## Solution
+
+```python
+import heapq
+
+class Solution:
+    def findKthLargest(self, nums, k):
+
+        heap = []
+
+        for num in nums:
+
+            heapq.heappush(heap, num)
+
+            if len(heap) > k:
+                heapq.heappop(heap)
+
+        return heap[0]
+```
+
+---
