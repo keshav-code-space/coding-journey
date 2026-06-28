@@ -92,4 +92,19 @@ Sorting is done in-place.
 
 ---
 
-continue later with the example.
+## Example
+
+### Input
+
+```text
+nums = [2,0,2,1,1,0]
+```
+
+### Output
+
+```text
+[0,0,1,1,2,2]
+```
+
+---
+
