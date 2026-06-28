@@ -38,3 +38,21 @@ class Solution:
 ```
 
 ---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n log n)
+```
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+(Python's built-in sort uses extra space internally, but it is generally considered in-place.)
+
+---
