@@ -108,3 +108,30 @@ nums = [2,0,2,1,1,0]
 
 ---
 
+## Alternative Approach: Counting Sort
+
+Count the number of:
+
+```text
+0s
+1s
+2s
+```
+
+Then overwrite the array.
+
+```python
+class Solution:
+    def sortColors(self, nums):
+
+        count0 = nums.count(0)
+        count1 = nums.count(1)
+        count2 = nums.count(2)
+
+        nums[:count0] = [0] * count0
+        nums[count0:count0 + count1] = [1] * count1
+        nums[count0 + count1:] = [2] * count2
+```
+
+---
+
