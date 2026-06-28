@@ -56,3 +56,17 @@ O(1)
 (Python's built-in sort uses extra space internally, but it is generally considered in-place.)
 
 ---
+
+# Approach 2: Min Heap (Optimal)
+
+## Why Heap?
+
+We don't need the entire array sorted.
+
+We only need the kth largest element.
+
+A **Min Heap** of size `k` keeps track of the `k` largest elements seen so far.
+
+The smallest element in the heap will always be the kth largest.
+
+---
