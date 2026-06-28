@@ -11,3 +11,30 @@ You must solve the problem without sorting the entire array if possible.
 **LeetCode Link:** https://leetcode.com/problems/kth-largest-element-in-an-array/
 
 ---
+
+# Approach 1: Sorting
+
+## Idea
+
+Sort the array in ascending order.
+
+The kth largest element will be at index:
+
+```text
+len(nums) - k
+```
+
+---
+
+## Solution
+
+```python
+class Solution:
+    def findKthLargest(self, nums, k):
+
+        nums.sort()
+
+        return nums[len(nums) - k]
+```
+
+---
