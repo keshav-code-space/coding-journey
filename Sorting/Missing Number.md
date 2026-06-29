@@ -95,3 +95,9 @@ Missing Number = 2
 
 ---
 
+# Concepts Used
+
+- Array
+- Mathematics
+- XOR
+- Bit Manipulation
