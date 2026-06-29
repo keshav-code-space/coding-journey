@@ -35,3 +35,20 @@ Subtract the actual sum of the array from the expected sum.
 The difference is the missing number.
 
 ---
+
+## Solution
+
+```python
+class Solution:
+    def missingNumber(self, nums):
+
+        n = len(nums)
+
+        expected = n * (n + 1) // 2
+
+        actual = sum(nums)
+
+        return expected - actual
+```
+
+---
