@@ -68,3 +68,30 @@ O(1)
 ```
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+nums = [3,0,1]
+```
+
+### Output
+
+```text
+2
+```
+
+### Explanation
+
+```text
+Numbers should be:
+
+0 1 2 3
+
+Missing Number = 2
+```
+
+---
+
