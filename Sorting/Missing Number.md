@@ -52,3 +52,19 @@ class Solution:
 ```
 
 ---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+---
