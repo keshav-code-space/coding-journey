@@ -14,3 +14,24 @@ return the only number in the range that is missing from the array.
 
 ---
 
+# Approach 1: Sum Formula
+
+## Key Idea
+
+If no number were missing, the sum of numbers from:
+
+```text
+0 → n
+```
+
+would be:
+
+```text
+n × (n + 1) / 2
+```
+
+Subtract the actual sum of the array from the expected sum.
+
+The difference is the missing number.
+
+---
