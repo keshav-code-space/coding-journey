@@ -67,3 +67,37 @@ class Solution:
 ```
 
 ---
+
+# Complexity Analysis
+
+### Time Complexity
+
+Sorting:
+
+```text
+O(n log n)
+```
+
+Traversal:
+
+```text
+O(n)
+```
+
+Overall:
+
+```text
+O(n log n)
+```
+
+---
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+(Excluding the sorting algorithm's internal space.)
+
+---
