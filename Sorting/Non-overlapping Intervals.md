@@ -101,3 +101,39 @@ O(1)
 (Excluding the sorting algorithm's internal space.)
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+intervals = [[1,2],[2,3],[3,4],[1,3]]
+```
+
+### Output
+
+```text
+1
+```
+
+### Explanation
+
+Remove:
+
+```text
+[1,3]
+```
+
+Remaining intervals:
+
+```text
+[1,2]
+
+[2,3]
+
+[3,4]
+```
+
+No intervals overlap.
+
+---
