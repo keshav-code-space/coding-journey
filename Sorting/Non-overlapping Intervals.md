@@ -137,3 +137,10 @@ Remaining intervals:
 No intervals overlap.
 
 ---
+
+# Concepts Used
+
+- Greedy Algorithm
+- Sorting
+- Intervals
+- Array
