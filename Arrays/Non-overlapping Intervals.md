@@ -25,3 +25,17 @@ intervals[i].length == 2
 **LeetCode Link:** https://leetcode.com/problems/non-overlapping-intervals/ 
 
 ---
+
+# Approach: Greedy
+
+## Key Idea
+
+To maximize the number of intervals we keep, we should always keep the interval that **ends earliest**.
+
+Why?
+
+An interval with a smaller ending time leaves more room for future intervals.
+
+---
+
+i will complete it later 🙂.
