@@ -193,3 +193,14 @@ Current
 ```text
 3 >= 3
 ```
+
+Keep it.
+
+Answer
+
+```text
+1
+```
+
+---
+
