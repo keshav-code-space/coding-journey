@@ -433,3 +433,10 @@ intervals = [[1,2],[1,2],[1,2]]
 Only one interval can remain.
 
 ---
+
+# Concepts Used
+
+- Greedy Algorithm
+- Sorting
+- Intervals
+- Array
