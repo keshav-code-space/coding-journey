@@ -413,3 +413,23 @@ Remaining intervals:
 No intervals overlap.
 
 ---
+
+## Example 2
+
+### Input
+
+```text
+intervals = [[1,2],[1,2],[1,2]]
+```
+
+### Output
+
+```text
+2
+```
+
+### Explanation
+
+Only one interval can remain.
+
+---
