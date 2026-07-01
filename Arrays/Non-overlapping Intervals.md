@@ -38,4 +38,71 @@ An interval with a smaller ending time leaves more room for future intervals.
 
 ---
 
-i will complete it later 🙂.
+# Step 1
+
+Sort the intervals by their ending time.
+
+Example:
+
+```text
+Before Sorting
+
+[1,3]
+
+[2,4]
+
+[3,5]
+
+[1,2]
+```
+
+Sort by end:
+
+```text
+[1,2]
+
+[1,3]
+
+[2,4]
+
+[3,5]
+```
+
+---
+
+# Step 2
+
+Keep the first interval.
+
+```text
+Previous End = 2
+```
+
+---
+
+# Step 3
+
+Traverse the remaining intervals.
+
+If:
+
+```text
+current_start >= previous_end
+```
+
+No overlap.
+
+Keep it.
+
+Otherwise:
+
+```text
+Overlap
+```
+
+Remove the current interval.
+
+---
+
+---
+
