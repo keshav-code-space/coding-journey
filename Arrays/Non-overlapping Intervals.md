@@ -343,3 +343,37 @@ This keeps more intervals and minimizes removals.
 Hence, we always choose the interval with the **earliest ending time**.
 
 ---
+
+# Complexity Analysis
+
+### Time Complexity
+
+Sorting:
+
+```text
+O(n log n)
+```
+
+Traversal:
+
+```text
+O(n)
+```
+
+Overall:
+
+```text
+O(n log n)
+```
+
+---
+
+### Space Complexity
+
+```text
+O(1)
+```
+
+(Excluding the sorting algorithm's internal space.)
+
+---
