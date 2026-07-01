@@ -322,4 +322,24 @@ Consider:
 [3,4]
 ```
 
+If we keep:
+
+```text
+[1,100]
+```
+
+We lose both remaining intervals.
+
+Instead, keep:
+
+```text
+[2,3]
+
+[3,4]
+```
+
+This keeps more intervals and minimizes removals.
+
+Hence, we always choose the interval with the **earliest ending time**.
+
 ---
