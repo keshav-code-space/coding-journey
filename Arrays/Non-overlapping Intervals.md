@@ -106,3 +106,90 @@ Remove the current interval.
 
 ---
 
+# Visualization
+
+Input
+
+```text
+[1,2]
+
+[2,3]
+
+[3,4]
+
+[1,3]
+```
+
+Sort by ending time
+
+```text
+[1,2]
+
+[2,3]
+
+[1,3]
+
+[3,4]
+```
+
+Take first:
+
+```text
+[1,2]
+```
+
+Previous End
+
+```text
+2
+```
+
+---
+
+Current
+
+```text
+[2,3]
+```
+
+```text
+2 >= 2
+```
+
+Keep it.
+
+Previous End
+
+```text
+3
+```
+
+---
+
+Current
+
+```text
+[1,3]
+```
+
+```text
+1 < 3
+```
+
+Overlap.
+
+Remove it.
+
+Count = 1
+
+---
+
+Current
+
+```text
+[3,4]
+```
+
+```text
+3 >= 3
+```
