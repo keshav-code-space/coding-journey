@@ -130,3 +130,20 @@ class Solution:
 
 ---
 
+# Complexity Analysis
+
+## Extra Array
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+---
