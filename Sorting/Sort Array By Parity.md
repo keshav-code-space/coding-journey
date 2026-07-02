@@ -20,3 +20,38 @@ Return **any array** that satisfies this condition.
 
 ---
 
+# Approach 1: Two Pointers (Optimal)
+
+## Key Idea
+
+Use two pointers:
+
+- `left` starts from the beginning.
+- `right` starts from the end.
+
+Move:
+
+- `left` until it finds an **odd** number.
+- `right` until it finds an **even** number.
+
+Swap them.
+
+Repeat until the pointers cross.
+
+---
+
+# Why Two Pointers?
+
+We only need to separate:
+
+```text
+Even Numbers
+
+Odd Numbers
+```
+
+We don't care about maintaining their relative order.
+
+This makes the **Two Pointer** approach ideal.
+
+---
