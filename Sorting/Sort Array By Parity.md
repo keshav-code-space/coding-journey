@@ -147,3 +147,27 @@ O(n)
 ```
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+nums = [3,1,2,4]
+```
+
+### Output
+
+```text
+[2,4,3,1]
+```
+
+Other valid outputs:
+
+```text
+[4,2,1,3]
+
+[2,4,1,3]
+```
+
+---
