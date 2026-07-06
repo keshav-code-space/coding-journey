@@ -55,3 +55,100 @@ We don't care about maintaining their relative order.
 This makes the **Two Pointer** approach ideal.
 
 ---
+
+# Visualization
+
+Input
+
+```text
+[3,1,2,4]
+```
+
+Initial
+
+```text
+L           R
+
+3 1 2 4
+```
+
+---
+
+### Step 1
+
+Left points to:
+
+```text
+3 (Odd)
+```
+
+Right points to:
+
+```text
+4 (Even)
+```
+
+Swap
+
+```text
+4 1 2 3
+```
+
+---
+
+### Step 2
+
+Move Left
+
+```text
+L
+
+4 1 2 3
+```
+
+4 is even.
+
+Move again.
+
+```text
+4 1 2 3
+  L
+```
+
+1 is odd.
+
+Stop.
+
+---
+
+Move Right
+
+```text
+4 1 2 3
+      R
+```
+
+3 is odd.
+
+Move again.
+
+```text
+4 1 2 3
+    R
+```
+
+2 is even.
+
+Stop.
+
+Swap
+
+```text
+4 2 1 3
+```
+
+Pointers cross.
+
+Done.
+
+---
