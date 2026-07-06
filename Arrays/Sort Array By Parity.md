@@ -246,3 +246,14 @@ O(1)
 ```
 
 ---
+
+# Approach 2: Extra Array
+
+## Key Idea
+
+Create a new array.
+
+- First add all even numbers.
+- Then add all odd numbers.
+
+---
