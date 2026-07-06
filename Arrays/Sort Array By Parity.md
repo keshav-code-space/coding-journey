@@ -296,3 +296,10 @@ O(n)
 ```
 
 ---
+
+# Concepts Used
+
+- Array
+- Two Pointers
+- Swapping
+- In-place Algorithm
