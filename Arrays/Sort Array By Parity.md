@@ -176,3 +176,55 @@ class Solution:
 ```
 
 ---
+
+# Dry Run
+
+Input
+
+```text
+nums = [3,1,2,4]
+```
+
+Start
+
+```text
+Left = 0
+
+Right = 3
+```
+
+Array
+
+```text
+3 1 2 4
+```
+
+Swap
+
+```text
+4 1 2 3
+```
+
+Move pointers
+
+```text
+Left -> 1
+
+Right -> 2
+```
+
+Swap
+
+```text
+4 2 1 3
+```
+
+Pointers cross.
+
+Return
+
+```text
+[4,2,1,3]
+```
+
+---
