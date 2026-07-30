@@ -129,3 +129,53 @@ O(n)
 In the worst case, all tokens may be numbers and stored in the stack.
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+tokens = ["2","1","+","3","*"]
+```
+
+### Output
+
+```text
+9
+```
+
+### Explanation
+
+```text
+(2 + 1) × 3
+
+= 3 × 3
+
+= 9
+```
+
+---
+
+## Example 2
+
+### Input
+
+```text
+tokens = ["4","13","5","/","+"]
+```
+
+### Output
+
+```text
+6
+```
+
+### Explanation
+
+```text
+13 / 5 = 2
+
+4 + 2 = 6
+```
+
+---
