@@ -107,3 +107,25 @@ class Solution:
 ```
 
 ---
+
+# Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+Each token is processed exactly once.
+
+---
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+In the worst case, all tokens may be numbers and stored in the stack.
+
+---
