@@ -179,3 +179,10 @@ tokens = ["4","13","5","/","+"]
 ```
 
 ---
+
+# Concepts Used
+
+- Stack
+- Reverse Polish Notation (Postfix Expression)
+- Arithmetic Operations
+- Expression Evaluation
