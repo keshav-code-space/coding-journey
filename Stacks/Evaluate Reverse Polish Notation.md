@@ -61,4 +61,13 @@ Push it onto the stack.
 
 At the end, the stack contains only one value: the answer.
 
+# Why Use a Stack?
+
+When we encounter:
+
+- A number → Store it.
+- An operator → Use the last two numbers.
+
+A **stack** naturally provides access to the most recently added elements.
+
 ---
