@@ -41,3 +41,24 @@ tokens[i] is either:
 ```
 
 ---
+
+# Approach: Stack
+
+## Key Idea
+
+Traverse every token.
+
+### If the token is a number
+
+Push it onto the stack.
+
+### If the token is an operator
+
+1. Pop the second operand.
+2. Pop the first operand.
+3. Perform the operation.
+4. Push the result back.
+
+At the end, the stack contains only one value: the answer.
+
+---
