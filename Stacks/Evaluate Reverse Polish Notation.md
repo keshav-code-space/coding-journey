@@ -27,3 +27,17 @@ Each operand may be an integer or another expression.
 > Division between two integers should truncate toward zero.
 
 ---
+
+## Constraints
+
+```text
+1 <= tokens.length <= 10^4
+
+tokens[i] is either:
+
+• An integer
+
+• One of "+", "-", "*", "/"
+```
+
+---
