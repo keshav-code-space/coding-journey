@@ -180,3 +180,55 @@ O(n)
 The stack may contain all bars.
 
 ---
+
+## Example 1
+
+### Input
+
+```text
+heights = [2,1,5,6,2,3]
+```
+
+### Output
+
+```text
+10
+```
+
+### Explanation
+
+The largest rectangle is formed using the bars:
+
+```text
+5 and 6
+```
+
+Width:
+
+```text
+2
+```
+
+Area:
+
+```text
+5 × 2 = 10
+```
+
+---
+
+## Example 2
+
+### Input
+
+```text
+heights = [2,4]
+```
+
+### Output
+
+```text
+4
+```
+
+---
