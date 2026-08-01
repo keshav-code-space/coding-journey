@@ -232,3 +232,10 @@ heights = [2,4]
 ```
 
 ---
+
+# Concepts Used
+
+- Stack
+- Monotonic Stack
+- Histogram
+- Arrays
