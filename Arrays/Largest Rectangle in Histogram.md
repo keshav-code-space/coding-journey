@@ -127,3 +127,56 @@ class Solution:
 ```
 
 ---
+
+# Why Store the Start Index?
+
+When a taller bar is removed:
+
+```text
+6
+```
+
+the next smaller bar:
+
+```text
+2
+```
+
+can actually start from the same position where `6` started.
+
+So we store:
+
+```python
+start = index
+```
+
+before pushing the new bar.
+
+This ensures the width is calculated correctly.
+
+---
+
+# Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+Each bar is:
+
+- Pushed once
+- Popped once
+
+---
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+The stack may contain all bars.
+
+---
